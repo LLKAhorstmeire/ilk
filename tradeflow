@@ -1,0 +1,143 @@
+Build my application called TradeFlow in this repository.
+
+TradeFlow is a modern, professional paper-trading platform. It must use virtual money only and must NOT perform real-money trading, deposits, withdrawals, or brokerage execution.
+
+I want you to actually build the application in this repository, not just explain the code.
+
+Use:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- PostgreSQL
+- Prisma
+- Secure authentication
+- A professional charting library
+
+Create a polished dark-mode trading interface that is also fully responsive on mobile.
+
+Build these pages:
+
+1. Landing page
+2. Sign up
+3. Login
+4. Dashboard
+5. Markets
+6. Asset detail/trading page
+7. Watchlist
+8. Portfolio
+9. Orders
+10. Transaction History
+11. Price Alerts
+12. Settings
+13. Admin dashboard
+
+Every new user starts with $100,000 virtual cash.
+
+Users must be able to:
+- Search stocks and crypto
+- View prices
+- View interactive charts
+- Buy assets with virtual money
+- Sell assets with virtual money
+- Place market orders
+- Place limit orders
+- View holdings
+- Track profit/loss
+- Create watchlists
+- Create price alerts
+- View orders and transactions
+
+Create a proper backend and PostgreSQL database.
+
+Create Prisma models for:
+- Users
+- Assets
+- Holdings
+- Orders
+- Transactions
+- Watchlists
+- WatchlistItems
+- Alerts
+- PortfolioSnapshots
+
+IMPORTANT:
+All important trading calculations and validation must happen on the server.
+
+Prevent:
+- Buying without sufficient virtual cash
+- Selling more assets than the user owns
+- Invalid quantities
+- Invalid prices
+- Unauthorized access to another user's data
+
+Use database transactions when executing trades.
+
+For market data, create a market-data service abstraction.
+
+If no external market-data API is configured, automatically use realistic mock data so the application still works.
+
+Never expose API keys in frontend code.
+
+Create:
+- .env.example
+- .gitignore
+- README.md
+- Database migrations
+- Seed/demo data
+- Tests
+- GitHub Actions for linting, type checking, tests and build
+
+Create a demo account with $100,000 virtual cash and sample holdings.
+
+The UI should look like a serious commercial trading platform, not a basic template.
+
+Use the brand:
+
+TradeFlow
+"Trade. Learn. Improve."
+
+Navigation:
+
+Dashboard
+Markets
+Watchlist
+Trade
+Portfolio
+Orders
+History
+Alerts
+Settings
+
+Build the project in phases:
+
+Phase 1: project foundation and UI
+Phase 2: database
+Phase 3: authentication
+Phase 4: market data
+Phase 5: dashboard
+Phase 6: trading engine
+Phase 7: portfolio
+Phase 8: orders/history
+Phase 9: watchlists/alerts
+Phase 10: admin
+Phase 11: testing/security
+Phase 12: deployment preparation
+
+Do not stop after creating the homepage.
+
+Do not create buttons that do nothing.
+
+Do not leave major features as TODO placeholders.
+
+After each phase:
+- Run the application
+- Run tests
+- Run lint
+- Run TypeScript checks
+- Fix errors
+- Continue to the next phase
+
+If the repository is empty, initialize the project first.
+
+Start building TradeFlow now.
